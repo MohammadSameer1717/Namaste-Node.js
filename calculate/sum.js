@@ -1,6 +1,6 @@
 // Modules protect their variables and function from leaking
 
-console.log("Sum Module Executed");
+// console.log("Sum Module Executed");
 
 var x = "hello World";
 
@@ -10,7 +10,7 @@ function calculateSum(a, b) {
     console.log(sum);
 }
 
-module.exports = {
-    x: x,
-    calculateSum: calculateSum,
-};
+module.exports = { x, calculateSum };
+
+// module.exports.x = x;
+// module.exports.calculateSum = calculateSum;
